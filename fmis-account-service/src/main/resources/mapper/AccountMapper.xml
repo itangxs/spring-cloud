@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tdw.fmis.account.mapper.AccountMapper" >
+  <resultMap id="BaseResultMap" type="com.tdw.fmis.account.entity.Account" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="account_id" property="accountId" jdbcType="CHAR" />
+    <result column="account_no" property="accountNo" jdbcType="VARCHAR" />
+    <result column="account_type" property="accountType" jdbcType="INTEGER" />
+    <result column="account_name" property="accountName" jdbcType="VARCHAR" />
+    <result column="main_id" property="mainId" jdbcType="VARCHAR" />
+    <result column="main_type" property="mainType" jdbcType="INTEGER" />
+    <result column="business_from" property="businessFrom" jdbcType="INTEGER" />
+    <result column="branch_id" property="branchId" jdbcType="VARCHAR" />
+    <result column="account_amount" property="accountAmount" jdbcType="DECIMAL" />
+    <result column="frozen_amount" property="frozenAmount" jdbcType="DECIMAL" />
+    <result column="status_flag" property="statusFlag" jdbcType="INTEGER" />
+    <result column="frozen_flag" property="frozenFlag" jdbcType="INTEGER" />
+    <result column="create_user" property="createUser" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_user" property="updateUser" jdbcType="VARCHAR" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="remark" property="remark" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

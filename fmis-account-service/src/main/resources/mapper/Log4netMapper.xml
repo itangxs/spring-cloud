@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tdw.fmis.account.mapper.Log4netMapper" >
+  <resultMap id="BaseResultMap" type="com.tdw.fmis.account.entity.Log4net" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="log_id" property="logId" jdbcType="INTEGER" />
+    <result column="log_level" property="logLevel" jdbcType="VARCHAR" />
+    <result column="logger" property="logger" jdbcType="VARCHAR" />
+    <result column="log_host" property="logHost" jdbcType="VARCHAR" />
+    <result column="log_date" property="logDate" jdbcType="TIMESTAMP" />
+    <result column="log_thread" property="logThread" jdbcType="VARCHAR" />
+    <result column="log_status" property="logStatus" jdbcType="INTEGER" />
+    <result column="log_message" property="logMessage" jdbcType="LONGVARCHAR" />
+    <result column="log_exception" property="logException" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

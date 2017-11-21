@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tdw.fmis.account.mapper.AccountListMapper" >
+  <resultMap id="BaseResultMap" type="com.tdw.fmis.account.entity.AccountList" >
+    <!--
+      WARNING - @mbggenerated
+    -->
+    <id column="list_id" property="listId" jdbcType="INTEGER" />
+    <result column="account_id" property="accountId" jdbcType="CHAR" />
+    <result column="account_time" property="accountTime" jdbcType="TIMESTAMP" />
+    <result column="business_id" property="businessId" jdbcType="VARCHAR" />
+    <result column="amount" property="amount" jdbcType="DECIMAL" />
+    <result column="bank_card_no" property="bankCardNo" jdbcType="VARCHAR" />
+    <result column="account_bank_id" property="accountBankId" jdbcType="CHAR" />
+    <result column="fee_id" property="feeId" jdbcType="CHAR" />
+    <result column="action_id" property="actionId" jdbcType="INTEGER" />
+    <result column="in_out" property="inOut" jdbcType="INTEGER" />
+    <result column="create_user" property="createUser" jdbcType="VARCHAR" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="status_flag" property="statusFlag" jdbcType="INTEGER" />
+    <result column="remark" property="remark" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>
